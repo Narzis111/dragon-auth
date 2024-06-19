@@ -4,7 +4,7 @@ import { BiShareAlt } from "react-icons/bi";
 import { AiFillEye } from "react-icons/ai";
 import { AiFillStar } from "react-icons/ai";
 
-const NewsCard = ({ news }) => {
+const NewsCard = ({ news}) => {
     const { title, image_url, details, author, rating, total_view, _id } = news;
     return (
         
